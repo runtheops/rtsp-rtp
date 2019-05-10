@@ -1,0 +1,16 @@
+# IDE
+.idea/**
+.vscode/**
+
+# Virtual environment
+.venv/**
+.env/**
+venv/**
+env/**
+
+.env
+*.pyc
+
+# Mac OS
+.DS_Store
+
