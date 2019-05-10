@@ -27,7 +27,7 @@ with RTSPClient(url) as client, RTPStream() as stream:
     # initiate streaming
     client.play()
 
-    with open(f'/tmp/stream','wb+') as f:
+    with open('/tmp/stream','wb+') as f:
         for chunk in stream.generate():
             f.write(chunk)
             # f.flush()
